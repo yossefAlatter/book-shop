@@ -1,0 +1,74 @@
+/** home intro style **/
+/** start **/
+.home-intro{
+    padding-top: 50px;
+}
+.home-intro .left-side{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.home-intro .left-side h2{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.04em;
+}
+.home-intro .left-side p{
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: var(--subText);
+}
+.home-intro .left-side button{
+    background-color: var(--mainColor);
+    border-radius: 50px;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.home-intro .left-side button:hover{
+    border: 1px solid var(--mainColor);
+    background-color: white;
+    color: var(--mainColor);
+}
+.home-intro .right-side img{
+    margin-left: 156px;
+    max-width: 374px;
+    width: 100%;
+}
+/** end **/
+
+/** home intro media **/
+/** start **/
+@media screen and (max-width: 1100px){
+    .home-intro .right-side img{
+        margin-left: 106px;
+
+    }
+}
+@media screen and (max-width: 770px){
+    .home-intro .left-side{
+        padding: 0;
+        margin-bottom: 50px;
+        text-align: center !important;
+    }
+    .home-intro .left-side, .home-intro .right-side{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .home-intro .right-side img{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    .home-intro .right-side img{
+        max-width: 80%;
+    }
+    .home-intro .left-side h2{
+        font-size: 36px;
+        line-height: normal;
+    }
+}
+/** end **/

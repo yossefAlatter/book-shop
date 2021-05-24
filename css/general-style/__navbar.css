@@ -1,0 +1,48 @@
+/** navbar style **/
+/** start **/
+.nav-logo{
+    width: 46px;
+    height: 46px;
+}
+.nav-link{
+    color: var(--links);
+}
+.nav-link:hover{
+    color: var(--mainColor);
+}
+.nav-link.active{
+    color: var(--mainColor);
+}
+.signup{
+    border: 1px solid var(--mainColor);
+}
+.signup a {
+    color: var(--mainColor);
+}
+.signup:hover{
+    background-color: var(--mainColor);
+}
+.signup:hover a{
+    color: white;
+}
+.login{
+    background-color: var(--mainColor);
+}
+.login a{
+    color: white;
+}
+.login:hover{
+    background-color: white;
+    border: 1px solid var(--mainColor);
+}
+.login:hover a{
+    color: var(--mainColor);
+}
+.signup, .login{
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+/** end **/

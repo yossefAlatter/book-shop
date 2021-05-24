@@ -1,0 +1,9 @@
+/** declare color variables **/
+/** start **/
+:root{
+    --mainColor: #E46164;
+    --mainText: #282828;
+    --subText: rgba(0,0,0,37%);
+    --links: rgba(0,0,0,46%);
+}
+/** end **/

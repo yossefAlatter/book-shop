@@ -1,0 +1,16 @@
+/** reset style for all elements **/
+/** start **/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/** end **/
+
+/** reset style of Anchor tag **/
+/** start **/
+a{
+    text-decoration: none;
+    color: var(--links);
+}
+/** end **/

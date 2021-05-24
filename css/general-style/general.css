@@ -1,0 +1,9 @@
+/** import reset style **/
+@import url(./__reset.css);
+
+/** import variable file **/
+@import url(./__variables.css);
+
+/** import navbar style **/
+@import url(./__navbar.css);
+
